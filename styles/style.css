@@ -1,12 +1,83 @@
 body{
     font-family:Arial, Helvetica, sans-serif;
     font-size:13px;
+    line-height: normal;
 }
 
 div{
     margin-top:10px;
 }
 
+nav{
+    margin-right:25px;
+    color:black;
+}
+
+/* add styles only to for 'ul' element, inside the nav */
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav li{
+    float:right;
+}
+
+nav li a {
+    display: block;
+    padding: 25px 10px 0px 0px;
+    text-decoration: none; 
+    color: black;
+}
+
+nav li a:hover{
+    text-decoration:underline;
+}
+
+footer li a{
+    text-decoration: none; 
+    color: #717070;
+    padding-right: 25px;
+}
+
+footer li a:hover{
+    text-decoration:underline;
+}
+
+footer ul{
+    overflow: hidden;
+    border-top: 0.5px solid lightgrey;
+    padding-top:14px;
+    padding-left:25px;
+}
+
+footer p{
+    padding-left:25px;
+}
+
+footer{
+    padding-top: 4px;
+    padding-bottom:13px;
+    background-color:#f2f2f2;
+    color:grey;
+    font-size:14px;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+}
+
+#borderline{
+    border-top: 0.5px solid lightgrey;
+}
+
+#float-right{
+    float:right;
+}
+
+#float-left{
+    float:left;
+}
+  
 #center{
     text-align:center;
     margin: auto;
@@ -34,6 +105,10 @@ div{
     color:black;
     border: solid 0.2px #b1b8cf;
     cursor:pointer;
+}
+
+.midpage{
+    margin-top:10%;
 }
 
 a.p-link{
