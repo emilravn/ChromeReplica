@@ -9,7 +9,7 @@ div{
 }
 
 nav{
-    margin-right:25px;
+    margin:0px 12px;
     color:black;
 }
 
@@ -34,6 +34,21 @@ nav li a:hover{
     text-decoration:underline;
 }
 
+footer{
+    padding:4px 0px 13px 0px;
+    background-color:#f2f2f2;
+    color:#717070;
+    font-size:14px;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+}
+
+footer ul{
+    border-top: 0.5px solid lightgrey;
+    padding:14px 0px 0px 25px;
+}
+
 footer li a{
     text-decoration: none; 
     color: #717070;
@@ -44,27 +59,10 @@ footer li a:hover{
     text-decoration:underline;
 }
 
-footer ul{
-    overflow: hidden;
-    border-top: 0.5px solid lightgrey;
-    padding-top:14px;
-    padding-left:25px;
-}
-
 footer p{
     padding-left:25px;
 }
 
-footer{
-    padding-top: 4px;
-    padding-bottom:13px;
-    background-color:#f2f2f2;
-    color:grey;
-    font-size:14px;
-    position: absolute;
-    bottom: 0;
-    width:100%;
-}
 
 #borderline{
     border-top: 0.5px solid lightgrey;
@@ -126,9 +124,9 @@ color:#2f4fe4;
 }
 
 input[type=text] {
-    width: 30%;
+    width: 32%;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 8px 0px;
     box-sizing: border-box;
     font-size:14px;
     border: 1px solid #dfe1e5;
