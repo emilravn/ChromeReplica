@@ -1,135 +1,151 @@
-body{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:13px;
-    line-height: normal;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: normal;
 }
 
-div{
-    margin-top:10px;
-}
-
-nav{
-    margin:0px 12px;
-    color:black;
+div {
+  margin-top: 10px;
 }
 
 /* add styles only to for 'ul' element, inside the nav */
-nav ul{
-    list-style-type: none;
-    overflow: hidden;
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
 }
 
-nav li{
-    float:right;
+nav li {
+  float: right;
 }
 
 nav li a {
-    display: block;
-    padding: 25px 10px 0px 0px;
-    text-decoration: none; 
-    color: black;
+  display: block;
+  padding: 25px 20px 0px 0px;
+  text-decoration: none;
+  color: black;
 }
 
-nav li a:hover{
-    text-decoration:underline;
+nav li a:hover {
+  text-decoration: underline;
 }
 
-footer{
-    padding:4px 0px 13px 0px;
-    background-color:#f2f2f2;
-    color:#717070;
-    font-size:14px;
-    position: absolute;
-    bottom: 0;
-    width:100%;
+footer {
+  padding: 4px 0px 13px 0px;
+  background-color: #f2f2f2;
+  color: #717070;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
-footer ul{
-    border-top: 0.5px solid lightgrey;
-    padding:14px 0px 0px 25px;
+footer ul {
+  border-top: 0.5px solid rgba(211, 211, 211, 0.4);
+  padding: 14px 0px 0px 25px;
 }
 
-footer li a{
-    text-decoration: none; 
-    color: #717070;
-    padding-right: 25px;
+footer li a {
+  text-decoration: none;
+  color: #4e4e4e;
+  padding-right: 25px;
 }
 
-footer li a:hover{
-    text-decoration:underline;
+footer li a:hover {
+  text-decoration: underline;
 }
 
-footer p{
-    padding-left:25px;
+footer p {
+  padding-left: 25px;
 }
 
-
-#borderline{
-    border-top: 0.5px solid lightgrey;
+@media only screen and (max-width: 720px) {
+  footer {
+    font-size: 11px;
+  }
 }
 
-#float-right{
-    float:right;
+@media only screen and (max-width: 600px) {
+  footer {
+    font-size: 8px;
+  }
 }
 
-#float-left{
-    float:left;
-}
-  
-#center{
-    text-align:center;
-    margin: auto;
-    padding-top: 25px;
+#borderline {
+  border-top: 0.5px solid rgba(211, 211, 211, 0.4);
 }
 
-#center-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#float-right {
+  float: right;
 }
 
-#button-google{
-    border-radius: 5px;
-    padding: 9px 16px;
-    margin: 0px 5px 0px 5px;
-    background-color: #f2f2f2;
-    color: #595f6e;
-    border: solid 0.2px transparent;
-    outline: none;
-    font-size:14px;
+#float-left {
+  float: left;
 }
 
-#button-google:hover{
-    color:black;
-    border: solid 0.2px #b1b8cf;
-    cursor:pointer;
+#center {
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
 }
 
-.midpage{
-    margin-top:10%;
+#center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-a.p-link{
-text-decoration:none;
-color:#2f4fe4;
-padding-left:5px;
+#button-google {
+  border-radius: 5px;
+  padding: 9px 16px;
+  margin: 0px 5px 0px 5px;
+  background-color: #f2f2f2;
+  color: #595f6e;
+  border: solid 0.2px transparent;
+  outline: none;
+  font-size: 14px;
 }
 
-a.p-link:hover{
-    text-decoration:underline;
+#button-google:hover {
+  color: black;
+  border: solid 0.2px #cdcdce;
+  cursor: pointer;
 }
 
-a.p-link:visited{
-color:#2f4fe4;
+.midpage {
+  margin-top: 160px;
 }
 
-input[type=text] {
-    width: 32%;
-    padding: 14px 20px;
-    margin: 8px 0px;
-    box-sizing: border-box;
-    font-size:14px;
-    border: 1px solid #dfe1e5;
-    border-radius: 25px;
-    outline:none;
+a.p-link {
+  text-decoration: none;
+  color: #2f4fe4;
+  padding-left: 5px;
+}
+
+a.p-link:hover {
+  text-decoration: underline;
+}
+
+a.p-link:visited {
+  color: #2f4fe4;
+}
+
+input[type="text"] {
+  width: 30%;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border: 1px solid #dfe1e5;
+  border-radius: 25px;
+  outline: none;
+}
+
+.squares {
+  width: 20px;
+  height: 20px;
+  opacity: 80%;
+}
+
+.squares:hover {
+  opacity: 100%;
 }
